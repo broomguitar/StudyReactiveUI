@@ -1,10 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using ReactiveWithDev.ViewModels;
 using System.Collections.Immutable;
 using System.Configuration;
 using System.Data;
 using System.Windows;
 
-namespace WpfApp1
+namespace ReactiveWithDev
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -23,4 +23,10 @@
     <PackageReference Include="ReactiveUI.WPF" Version="20.2.45" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Converters\" />
+    <Folder Include="Controls\" />
+    <Folder Include="UserControls\" />
+  </ItemGroup>
+
 </Project>

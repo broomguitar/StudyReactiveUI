@@ -13,7 +13,7 @@ using DevExpress.Xpf.Dialogs;
 using ReactiveUI;
 using ReactiveUI.Fody.Helpers;
 
-namespace WpfApp1
+namespace ReactiveWithDev.ViewModels
 {
     public class MainViewModel : ReactiveObject
     {
@@ -96,8 +96,8 @@ namespace WpfApp1
 
         public Test2()
         {
-            base.Value1 = "12";
-            Value = base.Value1 + 2;
+            Value1 = "12";
+            Value = Value1 + 2;
         }
     }
 

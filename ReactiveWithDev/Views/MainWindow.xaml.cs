@@ -18,8 +18,9 @@ using System.Reactive.Disposables;
 using System.Reactive.Concurrency;
 using System.Reactive.Subjects;
 using System.Reactive;
+using ReactiveWithDev.ViewModels;
 
-namespace WpfApp1
+namespace ReactiveWithDev.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
